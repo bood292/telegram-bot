@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///media/cdrom0/VBoxLinuxAdditions.run" added="2026-04-03T23:46:18.443547Z" modified="2026-04-03T23:46:18.443551Z" visited="2026-04-03T23:46:18.443547Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2026-04-03T23:46:18.443549Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/abood/ip" added="2026-04-07T20:07:08.454823Z" modified="2026-04-07T20:36:50.475456Z" visited="2026-04-07T20:07:08.454824Z">
+    <desc>Language: ; Encoding: UTF-8; Cursor: 0:0;</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2026-04-07T20:36:50.475453Z" count="12"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/abood/sweeper.sh" added="2026-04-07T20:07:08.468297Z" modified="2026-04-07T20:36:50.469761Z" visited="2026-04-07T20:07:08.468298Z">
+    <desc>Language: ; Encoding: UTF-8; Cursor: 3:5;</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2026-04-07T20:36:50.469757Z" count="13"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/abood/.local/share/Mousepad/autosave-0" added="2026-04-07T20:11:46.024074Z" modified="2026-04-07T20:27:20.447782Z" visited="2026-04-07T20:11:46.024075Z">
+    <desc>Language: ; Encoding: UTF-8; Cursor: 0:0;</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2026-04-07T20:27:20.447778Z" count="3"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/abood/.local/share/Mousepad/autosave-1" added="2026-04-07T20:13:09.738260Z" modified="2026-04-07T20:13:09.738264Z" visited="2026-04-07T20:13:09.738261Z">
+    <desc>Language: ; Encoding: UTF-8; Cursor: 1:10;</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2026-04-07T20:13:09.738263Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/abood/python/python" added="2026-04-07T20:41:11.456268Z" modified="2026-04-07T20:56:08.794048Z" visited="2026-04-07T20:41:11.456269Z">
+    <desc>Language: ; Encoding: UTF-8; Cursor: 8:0;</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2026-04-07T20:56:08.794043Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

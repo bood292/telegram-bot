@@ -1,0 +1,9 @@
+is_admin
+if not message.from_user
+try
+165
+app = Client
+parse_mode="html"
+
+
+
