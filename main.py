@@ -1145,4 +1145,21 @@ async def sell_points_cmd(client, message):
 # التشغيل
 # =========================================================
 print("RUNNING...")
-app.run()
+app.r import os
+from threading import Thread
+from flask import Flask
+
+web_app = Flask(__name__)
+
+@web_app.route("/")
+def home():
+    return "Bot is running!"
+
+def run_web():
+    port = int(os.environ.get("PORT", 10000))
+    web_app.run(host="0.0.0.0", port=port)
+
+if __name__ == "__main__":
+    Thread(target=run_web).start()
+    print("RUNNING...")
+    app.run()
