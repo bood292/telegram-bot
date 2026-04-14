@@ -632,7 +632,7 @@ async def tag_all_cmd(client, message):
         return
 
     mentions = []
-async for member in client.get_chat_members(message.chat.id):
+    async for member in client.get_chat_members(message.chat.id):
     if not member.user.is_bot:
         mention = f"[{member.user.first_name}](tg://user?id={member.user.id})"
         mentions.append(mention)
