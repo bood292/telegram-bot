@@ -1145,7 +1145,7 @@ async def sell_points_cmd(client, message):
 # التشغيل
 # =========================================================
 print("RUNNING...")
-app.r import os
+import os
 from threading import Thread
 from flask import Flask
 
