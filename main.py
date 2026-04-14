@@ -632,15 +632,12 @@ async def tag_all_cmd(client, message):
         return
 
     mentions = []
-    count = 0
-    async for msg in client.get_chat_history(message.chat.id, limit=80):
-        if msg.from_user and not msg.from_user.is_bot:
-            mention = msg.from_user.mention
-            if mention not in mentions:
-                mentions.append(mention)
-                count += 1
-            if count >= 30:
-                break
+async for member in client.get_chat_members(message.chat.id):
+    if not member.user.is_bot:
+        mention = f"[{member.user.first_name}](tg://user?id={member.user.id})"
+        mentions.append(mention)
+    if len(mentions) >= 30:
+        break
 
     if not mentions:
         return await send_bold(message, "ما لقيت أعضاء كفاية للمنشن")
